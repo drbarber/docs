@@ -86,7 +86,7 @@ Another option is to pass the folder containing the jars you want to pass
 - Open the `*.aar` archive
 - Extract the `classes.jar` and any dependencies it may have inside `libs/` folder
 - Rename `classes.jar` if necessary
-- Execute te following command
+- Execute the following command
 ```
 java -jar build/libs/dts-generator.jar -input classes.jar dependency-of-classes-jar.jar
 ```
